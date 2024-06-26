@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Family</title>
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+        }
+
+        body {
+            min-height: 100vh;
+            background-color: #f0f5f9;
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            position: relative;
+        }
+
+        /* Header styling */
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 20px 0;
+            background-color: #083957;
+            z-index: 100;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 500;
+            padding: 10px 20px;
+            transition: background-color 0.3s;
+        }
+
+        .navbar a:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+
+        main {
+            max-width: 700px;
+            margin: 160px auto 40px;
+            padding: 20px;
+            text-align: justify;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        main h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        main h2 {
+            font-size: 24px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        main h3 {
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 1.8;
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+
+        main p {
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+
+        
+        .centered-image {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+        }
+
+    
+        footer {
+            text-align: center;
+            background-color: #083957;
+            color: white;
+            padding: 10px;
+            width: 100%;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="personal-information.html">Personal Information</a></li>
+                <li><a href="family.html">Family</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="friends.html">Friends</a></li>
+                <li><a href="hobby.html">Hobby</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Welcome to the Family Section</h1>
+        <p>My family is an essential part of who I am and has shaped my journey in profound ways. They've been my support system, my inspiration, and my source of love and encouragement throughout my life.</p>
+        
+        <section>
+            <h2>My Parents</h2>
+            <img src="img/ibu ayah.jpg" class="centered-image" alt="Father and Mother">
+            <h3>My father's name is Amir Abidin bin Abdul Majid. He is 59 years old and works as a welder. My mother, Norhanita binti Tuah, is 52 years old and is a homemaker. I cherish them dearly.</h3>
+        </section>
+
+        <section>
+            <h2>My Brother</h2>
+            <img src="img/along.jpg" class="centered-image" alt="Brother">
+            <h3>My brother's name is Al-Luqman Aidil bin Amir Abidin. He is 25 years old and works as a manager at Tealive. He studied culinary arts at Kolej Komuniti Kuala Kangsar.</h3>
+        </section>
+
+        <section>
+            <h2>My Sister</h2>
+            <img src="img/kakak.jpg" class="centered-image" alt="Sister">
+            <h3>My sister, An Nuur Najihah binti Amir Abidin, is 23 years old and graduated in Electrical Engineering from Politeknik Ungku Omar, Ipoh, Perak.</h3>
+        </section>
+
+        <section>
+            <h2>My Little Sister</h2>
+            <img src="img/wafiah.jpg" class="centered-image" alt="Little Sister">
+            <h3>My little sister, An Nuur Wafiah binti Amir Abidin, is 10 years old and enjoys her studies at Sekolah Rendah Kebangsaan Gopeng Taman Gopeng Baru.</h3>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2024 An Nuur Zalikha. All rights reserved.
+    </footer>
+</body>
+</html>
